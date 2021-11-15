@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Layer">
+      <UniqueIdentifier>{c46870a6-7662-4e29-8465-84e09d13dcd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Activation">
+      <UniqueIdentifier>{08fa7ca9-7d81-4c4c-8d28-c349fc222a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{9c44d084-9c72-44f2-ad72-aee999acc247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Output">
+      <UniqueIdentifier>{6a906b02-9aef-4db3-9f15-c1e74ba3b307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Optimizer">
+      <UniqueIdentifier>{ce357b48-150a-48f8-a0ff-2481d9e9507d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Callback">
+      <UniqueIdentifier>{e3e369d3-b042-4624-9793-756d76d0c06e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CNN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Output.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\FullyConnected.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Convolutional.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer\Pooling.h">
+      <Filter>Header Files\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxAverage.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Convolution.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Identity.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Sigmoid.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="ReLU.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Softmax.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="Tanh.h">
+      <Filter>Header Files\Activation</Filter>
+    </ClInclude>
+    <ClInclude Include="MSE.h">
+      <Filter>Header Files\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossEntropy.h">
+      <Filter>Header Files\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Momentum.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="sparsepp.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="NAG.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaGrad.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Adam.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaDelta.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaMAX.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Nadam.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="RMSProp.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AMSGrad.h">
+      <Filter>Header Files\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Callback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="verbosecallback.h">
+      <Filter>Header Files\Callback</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
